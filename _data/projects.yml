@@ -1,0 +1,51 @@
+# Projects
+- project: <a href="https://www.vodafone.co.nz/" target=_blank rel="noopener noreferrer">MyVodafone Self Service IDM SSO – 1</a>
+  role: Spring Boot, Spring Security, AOP, IOC, Angular JS 1.4, Shell Scripting, Servlets
+  duration: Infosys Ltd - Development, Code Review
+  description: New Zealand's largest telecommunications service provider serving over 3.7 million customers nationwide. My Vodafone Self Service is web portal empowering customers to view, pay mobile bills, and manage services of their prepaid, post-paid account, DTH accounts. Self Service Portal Development is divided into two large scaled phases.
+
+# API Documentation with Swagger UI
+- project: <a href="https://www.vodafone.co.nz/" target=_blank rel="noopener noreferrer">MyVodafone Self Service IDM SSO – 2</a>
+  role: Spring Boot, Spring AOP, IOC, Angular JS 1.4, Java 7/8, Agile
+  duration: Infosys Ltd - Development, Design, Build and release management, Code Review
+  description: New CSR interface for Vodafone Customer Sales Representatives, Migrating from Monolithic to Micro Service based architecture, Unifying multiple user registrations/logins with Single Sign-on, allowing users to add multiple connections in a single login, Session Management through JWT Tokens, Implementing migration of 3.7 mn users to align with newly introduced SSO, Decommissioning CMS login and aligning users with existing one.
+
+- project: DAP | Google Analytics
+  role: Angular JS 1.4, Agile, Chai, Mocha
+  duration: Infosys Ltd - Development, Build and release management
+  description: Implemented Tealium Data Later throughout the application which captures and log all events such as page views, products in cart, change plan, payment failures, etc. Eventually this data is forwarded to Google Tag Manager, to be used to observe user behaviour which enables marketing team to take a critical decision before publishing information.
+
+- project: <a href="http://220.226.182.41:8080/" target=_blank rel="noopener noreferrer">DTH eRecharge and Sales Portal | Phase – 1</a>
+  role: Struts 1.3, Design Patterns, jBoss 4.2.0, Oracle 10g
+  duration: Requirement Study, Learning & analysing framework, Bug fixing, programming
+  description: This development includes channel partner lifecycle management, SMS and email based registration, IVR response. Recharge points based location sharing. Fund transfer among channel partners. Dynamic MDN allocation, automated De-registration (via TIBCO) to remedy.
+
+- project: <a href="http://220.226.182.41:8080/" target=_blank rel="noopener noreferrer">DTH eRecharge and Sales Portal | Phase – 2</a>
+  role: Struts 2.3, Design Patterns, jBoss 4.2.0, Oracle 10g, Maven
+  duration: Requirement gathering, Business interaction, Analysing and programming
+  description: This development includes billing of subscribers and channel partners, where the key features includes policy management, package management, subscriber management, billing, recharges, due dates, available balance for subscribers through my account management. Loyalty points based scheme management. STB lifecycle management.
+
+- project: <a href="http://220.226.182.41:8080/" target=_blank rel="noopener noreferrer">DTH eRecharge and Sales Portal | Phase – 3</a>
+  role: Struts 2.3, Design Patterns, jBoss 4.2.0, Oracle 10g, Maven
+  duration: Requirement gathering, Business interaction, Analysing and programming, Code Review 
+  description: Introducing/managing retailer & customer life cycle through CRM and PINGEN integration. Conflict management, bucket balance activities (IN), eRecharge process for retailers.
+
+- project: <a href="http://220.226.182.41:8080/" target=_blank rel="noopener noreferrer">DTH eRecharge and Sales Portal | Phase – 4</a>
+  role: Struts 2.3, Design Patterns, jBoss 4.2.0, Oracle 10g, Maven, RESTful Web Services
+  duration: Requirement gathering, Business interaction, Analysing and programming, Code Review
+  description: New API development for DTH eRecharge and Sales portal Mobile APP. E-recharge module for retailers to do e-recharge. Extending all functionalities of Web Portals
+
+- project: Enterprise Instant Messaging Application – <a href="https://smartchat.relianceada.com/" target=_blank rel="noopener noreferrer">SmartChat</a>
+  role: JSP/Servlet, Swing, JSON, SVN, SAX, StAX, RESTful Web Services
+  duration: Research, Designing (code + database), Developer
+  description: An XMPP based open source enterprise grade instant messaging application that offers real time text/file transmission over the internet/intranet, It simplifies communication among employees and saves time especially for long distance conversations by providing extended features like file and image sharing, Group chats, Secure encrypted, send SMSes, OTR Chat, Avatar Loading, Read and delivery receipts, Admin interface to manage users.
+
+- project: <a href="http://iglobalcom.globalcloudxchange.com/inventory/" target=_blank rel="noopener noreferrer">GCX - Spares Inventory & Asset Tracking</a>
+  role: Struts 2.3, Design Patterns, jqGrid, Tomcat 7.0, Oracle 10g, Maven
+  duration: Research, Designing, Analysing and programming 
+  description: An Internet portal managing cables related inventory for 181 sites across 151 countries. It maintains faulty, in use, used spares, RMA, Loan, deployment, Impact analysis, Vendor Performance Analysis, coverage for audits and financial valuations. MTTR and MTBF value as per capacity of the equipment. Additionally generates and circulated status reports on regular basis.
+
+- project: Sales and Distribution (Mobile App-Smarty)
+  role: Core Java, Servlets, Tomcat 7.0, JSON, Maven, RESTful Web Services
+  duration: Developer, Code Reviewer
+  description: Mobile application platform for Sales and Distribution portal with extended functionality for users (Distributor, DSR, and TSM, Retailer) to track past sales and related activities for users under their hierarchy. Key features include critical time lines, daily performance, mobile number verification reports, BTS wise KPIs.

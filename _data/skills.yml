@@ -1,0 +1,49 @@
+# Skills
+# Passion for technology
+- skill: Passion for technology
+  description: I am always eager to develop my skill set, not just when it comes to Spring and Struts, but also when it comes to core programming. Apart from  Java, I have experience with languages like HTML5, CSS3, JavaScript, Angular JS.
+
+- skill: Operating Systems
+  description: Windows Family, Linux (Red hat, Ubuntu)
+
+- skill: Programming Languages
+  description: Java 7, 8/9(learning)
+
+- skill: J2SE/J2EE
+  description: Collection Framework, Generics, JSP / Servlet
+
+- skill: Open Source Frameworks
+  description: Apache Struts (1.X/2.3), Spring Boot 1.5.0, IOC / AOP, XMPP
+
+- skill: Version Control
+  description: git, Clear Case
+
+- skill: Build Tools
+  description: Apache Maven 3.3.1
+
+- skill: Test Frameworks
+  description: jUnit 4, Mockito, Cucumber, Chai, Mocha
+
+- skill: Project Management Tools
+  description: JIRA, Confluence
+
+- skill: CD/CI Tool
+  description: Jenkins
+
+- skill: Project Development Tools
+  description: IntelliJ 2016.1, Eclipse Luna
+
+- skill: Databases
+  description: Oracle 10g
+
+- skill: Web/Application Servers
+  description: Apache HTTP Server, Tomcat 7.0, jBoss 4.2.0(basics)
+
+- skill: Web Technologies
+  description: JS, JSON, Ajax, jqGrid, Angular JS (1.4)(intermediate) 
+
+- skill: Business Domains
+  description: Telecom Services/Billing, Direct to Home Services, Instant Messaging
+
+- skill: Productivity Tools
+  description: Toad, PMD, Sonar

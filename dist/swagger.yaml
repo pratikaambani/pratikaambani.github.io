@@ -1,0 +1,116 @@
+swagger: "2.0"
+info:
+ version: "2.0.2"
+ title: "Country API"
+ description: "A short API doc describes some of the endpoints for the Country API through the Swagger specification"
+ termsOfService: "http://swagger.io/terms/"
+ contact:
+   name: "Pratik Ambani"
+   email: "pratikaambani@gmail.com"
+   url: "https://pratikaambani.github.io/"
+ license:
+   name: "MIT"
+   url: "http://opensource.org/licenses/MIT"
+host: "restcountries.eu/rest/v2"
+schemes:
+ - "https"
+consumes:
+ - "application/json"
+produces:
+ - "application/json"
+paths:
+ /all:
+   get:
+     tags:
+       - "All"
+     description: "Get all the available countries."
+     operationId: "getAll"
+     produces:
+       - "json"
+     parameters: []
+     responses:
+       200:
+         description: "successful operation"
+         schema:
+           type: object
+           properties:
+             name:
+               type: string
+               description: The name of the country.
+             capital:
+               type: string
+               description: The capital of the country.
+             altSpellings:
+               type: object
+               description: The alternative spellings of the country.
+ /name/{name}:
+   get:
+     tags:
+       - "Name"
+     description: "Gets country details based on the name offered."
+     operationId: "getByName"
+     produces:
+       - "json"
+     parameters:
+       -
+         name: "name"
+         in: "query"
+         description: "Search by country name. It can be the native name or partial name."
+         required: true
+         type: "string"
+     responses:
+       200:
+         description: "country response"
+         schema:
+           type: object
+           properties:
+             name:
+               type: string
+               description: The name of the country.
+             topLevelDomain:
+               type: object
+               description: The top level domain of the country.
+             alpha2Code:
+               type: string
+               description: The two-letter code of the country.
+             alpha3Code:
+               type: string
+               description: The three-letter code of the country.
+ /capital/{capital}:
+   get:
+     tags:
+       - "Capital"
+     description: "Gets country details based on the name of the capital city offered."
+     operationId: "getByCapital"
+     produces:
+       - "application/json"
+     parameters:
+       -
+         name: "capital"
+         in: "query"
+         description: "Search by capital city."
+         required: true
+         type: "string"
+     responses:
+       200:
+         description: "country response"
+         schema:
+           type: object
+           properties:
+             name:
+               type: string
+               description: The name of the country.
+             topLevelDomain:
+               type: object
+               description: The top level domain of the country.
+             alpha2Code:
+               type: string
+               description: The two-letter code of the country.
+             alpha3Code:
+               type: string
+               description: The three-letter code of the country.
+securityDefinitions:
+  internalApiKey:
+    type: apiKey
+    in: header
+    name: X-Mashape-Key
